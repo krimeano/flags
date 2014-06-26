@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head><title>Crimean Tatar standard</title>
+    <style type="text/css">
+        body {
+            font-size: 20pt;
+        }
+
+        .flag {
+            margin: 0 auto;
+            background: cyan;
+            width: 12em;
+            height: 8em;
+            box-shadow: 0 0 0.1em 0 #888;
+            position: relative;
+        }
+
+        .flag:before {
+            content: '';
+            display: block;
+            width: 1.8em;
+            height: 1em;
+            background: yellow;
+            position: absolute;
+            top: 0.6em;
+            left: 1em;
+        }
+
+        .flag:after {
+            content: '';
+            display: block;
+            width: 0.1em;
+            height: 20em;
+            background: #888;
+            border-left: 0.1em solid #aaa;
+            border-right: 0.1em solid #666;
+        }
+
+        .flag em {
+            display: block;
+            background: yellow;
+            position: absolute;
+            width: 1.4em;
+            height: .6em;
+            border-width: 0 0.2em;
+            border-style: solid;
+            border-color: cyan;
+            top: 0.6em;
+            left: 1em;
+        }
+
+        .flag em:before {
+            content: '';
+            display: block;
+            width: 0.2em;
+            height: 0.6em;
+            background: yellow;
+            position: absolute;
+            top: 0.2em;
+            left: 0.2em;
+            border-width: 0 0.4em;
+            border-style: solid;
+            border-color: cyan;
+        }
+
+        .flag em:after {
+            content: '';
+            display: block;
+            width: 0.6em;
+            height: 0.2em;
+            background: yellow;
+            position: absolute;
+            top: 0.8em;
+            left: -0.2em;
+            border-width: 0 0.6em;
+            border-style: solid;
+            border-color: cyan;
+        }
+    </style>
+</head>
+<body>
+<div class="flag"><em></em></div>
+</body>
+</html>
