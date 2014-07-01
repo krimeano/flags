@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head><title>brazil standard</title>
+    <style type="text/css">
+        body {
+            font-size: 20pt;
+        }
+
+        .flag {
+            margin: 0 auto;
+            height: 8em;
+            width: 12em;
+            box-shadow: 0 0 0.1em 0 #888;
+            background: green;
+            position: relative;
+        }
+
+        .flag:before {
+            content: '';
+            display: block;
+            width: 7em;
+            height: 7em;
+            background: yellow;
+            position: absolute;
+            top: .5em;
+            left: 2.5em;
+            -webkit-transform: rotate(-45deg) skew(12deg, 12deg);
+        }
+
+        .flag:after {
+            content: '';
+            display: block;
+            width: 0.1em;
+            height: 24em;
+            background: #888;
+            border-left: 0.1em solid #aaa;
+            border-right: 0.1em solid #666;
+        }
+
+        .flag em {
+            display: block;
+            background: blue;
+            position: absolute;
+            width: 6em;
+            height: 6em;
+            border-radius: 3em;
+            top: 1em;
+            left: 3em;
+        }
+
+        .flag em:before {
+            content: '';
+            display: block;
+            width: 5.8em;
+            height: 2em;
+            background: transparent;
+            position: absolute;
+            top: 2em;
+            left: -0em;
+            border-width: 0.2em 0 0;
+            border-style: solid;
+            border-color: white;
+            -webkit-transform: rotate(30deg);
+            border-radius: 5em/2em;
+        }
+    </style>
+</head>
+<body>
+<div class="flag"><em></em></div>
+</body>
+</html>
