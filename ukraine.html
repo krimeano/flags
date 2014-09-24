@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head><title>Ukrainian standard</title>
+    <style type="text/css">
+        body {
+            font-size: 20pt;
+        }
+
+        .flag {
+            margin: 0 auto;
+            width: 12em;
+        }
+
+        .flag:before {
+            content: '';
+            display: block;
+            width: 12em;
+            height: 0;
+            background: white;
+            box-shadow: 0 0 0.1em 0 #888;
+            border-width: 4em 0;
+            border-style: solid;
+            border-top-color: #0066cc;
+            border-bottom-color: #ffcc00;
+        }
+
+        .flag:after {
+            content: '';
+            display: block;
+            width: 0.1em;
+            height: 14.4em;
+            background: #888;
+            border-left: 0.1em solid #aaa;
+            border-right: 0.1em solid #666;
+        }
+    </style>
+</head>
+<body>
+<div class="flag"></div>
+</body>
+</html>
